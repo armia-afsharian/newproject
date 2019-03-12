@@ -1,0 +1,217 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ddd ;
+}
+.hder{
+	margin: 0;
+	background-image:linear-gradient(90deg ,rgb(0,0,0,.2) , rgb(0,0,0,.2)), url(https://thewallpaper.co/wp-content/uploads/2016/10/Laptop-hd-images-new-york-3D-hd-background-wallpapers-free-amazing-cool-tablet-4k-high-definition-2560x1600.jpg);
+	background-position: top;
+	background-size: cover;
+	height: 70vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	justify-content: center;
+	box-shadow: 0px 10px 20px black;
+
+}
+.hder:hover{
+	background-image: url(https://thewallpaper.co/wp-content/uploads/2016/10/Laptop-hd-images-new-york-3D-hd-background-wallpapers-free-amazing-cool-tablet-4k-high-definition-2560x1600.jpg);
+}
+header{
+
+}
+
+ul{margin:0; 
+list-style-type: none;
+
+}
+.yt{height:40px;
+display: none;margin: 0 auto;
+opacity: 0;
+transition: 500ms 100ms ease-out;
+}
+nav li:hover .yt{
+	display:flex;
+	opacity: 1;
+} 
+.txt{
+	position: absolute;
+	font-family: 'Thasadith';
+	color: white;
+	font-size: 12px;
+	text-align: center;
+
+}
+nav li:hover .txt{
+	display:none;
+}
+
+header ul li{
+	box-sizing: border-box;
+	display: inline-flex;
+	
+	width: 70px;
+	align-items: center;
+	justify-content: space-around;
+	background-image:linear-gradient(90deg ,rgb(255,255,255,.5) , rgb(255,255,255,.5));
+	transform: translateY(-65px);
+	transition: 500ms 100ms ease-out;
+	}
+
+	.hder:hover nav li{
+		height: 70px;
+	transform: translateY(0px);	
+	}
+		nav li:hover {
+		height:  30px;
+		background-color: blue;
+	}
+	.ttl{
+		font-family: 'Righteous', cursive;
+		margin:0;
+		position: relative;
+		top: 35vh;
+		color:rgb(255,255,255,.8);
+		font-size: 40px;
+		text-shadow: 0px 15px 30px black;
+		cursor: none;
+}
+.side{
+	padding: 0;
+	display: inline-block;
+	height: 200px;
+	width:200px;
+	float:left;
+	
+}
+.side li{
+	border: outset;
+	border-width: 2px;
+	display: flex;
+	height: 45px;
+	width: 150px;
+	color: white;
+	font-family: 'Thasadith';
+	font-weight: 400;
+	align-items: center;
+	justify-content: center;
+	background-image:linear-gradient(rgb(0,0,0,.2) , rgb(0,0,0,.2)) ,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMxJ0ut4eoY9bwY24TNlR8ZQqjaOUKeVaNyR3i8TFpOynBGj9);
+}
+.side li:hover{
+	background-image:linear-gradient(rgb(0,0,0,.5) , rgb(0,0,0,.2)) ,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMxJ0ut4eoY9bwY24TNlR8ZQqjaOUKeVaNyR3i8TFpOynBGj9);
+}
+
+.context{
+	padding: 20px;
+	text-align: center;
+}
+.intro{ 
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	padding: 10px;
+	margin-top:40px;
+	align-items: center;
+	justify-content: center;
+	border:inset;
+	border-width: 1px;
+	line-height: 20px;
+	font-weight: 600;
+	font-family: 'Thasadith';
+}
+.intro span{
+	font-family: 'Righteous', cursive;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+	color: maroon;
+	text-shadow: 0px 5px 10px black;
+
+}
+.scrol{
+	position: relative;
+	background-image: linear-gradient(rgb(0,0,222,.5) ,rgb(0,0,50,.5) ,rgb(0,0,222,.5)), url(https://ak5.picdn.net/shutterstock/videos/23647405/thumb/1.jpg);
+	font-family: 'Righteous', cursive;
+	box-shadow: 0px 15px 20px #333;
+	color:rgb(255,255,255,.6);
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+	transition: 500ms ease;
+}
+.scrol span{
+	float: right;
+	margin: 10px;
+	border-radius: 2px;
+	text-align: center;
+	padding: 0 5px;
+	cursor: pointer;
+	color: rgb(255,255,255,.5);
+	background-color: rgb(100,10,10);
+}
+#btn{
+	position: absolute;
+	margin:1% 45%;
+	white-space: nowrap;
+	border-color: rgb(0,0,222,.5);
+	color: #555;
+
+}
+.hide{transform: translateX(-100vw);position: absolute;}
+.pic1{
+
+	margin: 50px auto;
+	height: 100px;
+	width:100vw;
+	background-image: linear-gradient(rgb(0,0,0,.2) , rgb(0,0,0,.2)) ,url(https://thewallpaper.co/wp-content/uploads/2016/10/hd-place-wallpapers-download-amazing-desktop-images-background-photos-4k-mac-wallpapers-free-earth-4000x3000-768x576.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	border-top: inset;
+	border-bottom: inset;
+}
+.tpc{border: inset;
+	text-align: center;
+	width: 100vw;
+	background-image: linear-gradient(rgb(0,0,0,.2) , rgb(200,0,0,.2), rgb(0,0,0,.2)), url(https://i.imgur.com/jwuSYii.jpg);
+	font-family: 'Righteous';
+	cursor: pointer;
+	background-size: cover;
+}
+.tpc:hover{
+	box-shadow: 0 3px 20px maroon;
+	background: linear-gradient(rgb(200,0,0,.2), rgb(0,0,0,.2) , rgb(200,0,0,.2)), url(https://i.imgur.com/jwuSYii.jpg);
+}
+.ps p{
+	display: none;
+}
+.end{
+background-image:linear-gradient(rgb(255,255,255,.3)  , rgb(255,255,255,.3) ) , url(http://www.designbolts.com/wp-content/uploads/2013/02/Free-Tileable-Black-Wood-Textures-Patterns-For-3D-Mappin.jpg); 
+height: 200px;
+width: 100vw;
+ 
+}
+.end ul{ 
+margin-top: 29px;
+margin-left: 200px;
+	display: inline-grid;
+ grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+  background-image:
+  padding: 10px;
+}
+.end li{
+	background:linear-gradient(rgb(255,200,150,.3),rgb(255,200,150,.3) );
+	padding: 15px;
+	border: ridge;
+	height: 20px;
+	width: 70px;
+	border-width: 5px;
+	border-color: rgb(200,0,0,.3);
+	transition:1s ease; 
+	white-space: nowrap;
+}
+.end li:hover{
+	transform: rotateZ(360deg);
