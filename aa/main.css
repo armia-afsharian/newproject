@@ -107,6 +107,7 @@ header ul li{
 .context{
 	padding: 20px;
 	text-align: center;
+	height: 150px;
 }
 .intro{ 
 	display: flex;
@@ -194,8 +195,9 @@ width: 100vw;
  
 }
 .end ul{ 
+
 margin-top: 29px;
-margin-left: 200px;
+margin-left: 30vw;
 	display: inline-grid;
  grid-template-columns: auto auto auto;
 	grid-gap: 10px;
@@ -205,6 +207,7 @@ margin-left: 200px;
 .end li{
 	background:linear-gradient(rgb(255,200,150,.3),rgb(255,200,150,.3) );
 	padding: 15px;
+	margin-right:40px; 
 	border: ridge;
 	height: 20px;
 	width: 70px;
