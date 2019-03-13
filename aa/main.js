@@ -1,12 +1,15 @@
-/*
 
-var bn = document.getElementById('btn');
-var scrl =document.getElementsByClassName('scrol');
-if (scrl) {	
-bn.addEventListener("click", display);
+var scrl = document.getElementById('scrol');
 
-function display() {
-scrl.className.remove=("hide");
+
+
+
+var sticky = scrl.offsetTop;
+
+function event() {
+  if (window.pageYOffset  >= sticky) {
+    scrl.classList.add("hide")
+  } else {
+    scrl.classList.remove("hide");
+  }
 };
-}	
-*/

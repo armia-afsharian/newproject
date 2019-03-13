@@ -191,13 +191,13 @@ header ul li{
 .end{
 background-image:linear-gradient(rgb(255,255,255,.3)  , rgb(255,255,255,.3) ) , url(http://www.designbolts.com/wp-content/uploads/2013/02/Free-Tileable-Black-Wood-Textures-Patterns-For-3D-Mappin.jpg); 
 height: 200px;
+text-align: center;
 width: 100vw;
  
 }
 .end ul{ 
 
 margin-top: 29px;
-margin-left: 30vw;
 	display: inline-grid;
  grid-template-columns: auto auto auto;
 	grid-gap: 10px;
