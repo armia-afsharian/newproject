@@ -5,7 +5,7 @@ body{
 }
 .hder{
 	margin: 0;
-	background-image:linear-gradient(90deg ,rgb(0,0,0,.2) , rgb(0,0,0,.2)), url(https://thewallpaper.co/wp-content/uploads/2016/10/Laptop-hd-images-new-york-3D-hd-background-wallpapers-free-amazing-cool-tablet-4k-high-definition-2560x1600.jpg);
+	background-image:linear-gradient(90deg ,rgb(0,0,0,.2) , rgb(0,0,0,.2)), url(https://www.pixelstalk.net/wp-content/uploads/2016/12/Cool-City-At-Night-Background.jpg);
 	background-position: top;
 	background-size: cover;
 	height: 70vh;
@@ -18,7 +18,7 @@ body{
 
 }
 .hder:hover{
-	background-image: url(https://thewallpaper.co/wp-content/uploads/2016/10/Laptop-hd-images-new-york-3D-hd-background-wallpapers-free-amazing-cool-tablet-4k-high-definition-2560x1600.jpg);
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/12/Cool-City-At-Night-Background.jpg);
 }
 header{
 
@@ -167,7 +167,7 @@ header ul li{
 	margin: 50px auto;
 	height: 100px;
 	width:100vw;
-	background-image: linear-gradient(rgb(0,0,0,.2) , rgb(0,0,0,.2)) ,url(https://thewallpaper.co/wp-content/uploads/2016/10/hd-place-wallpapers-download-amazing-desktop-images-background-photos-4k-mac-wallpapers-free-earth-4000x3000-768x576.jpg);
+	background-image: linear-gradient(rgb(0,0,0,.2) , rgb(0,0,0,.2)) ,url(https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
 	background-size: cover;
 	background-attachment: fixed;
 	border-top: inset;
